@@ -122,10 +122,10 @@ function createRock(x) {
  * Finally, alert "YOU LOSE!" to the player.
  */
 function endGame() {
-  clear gameInterval
-  remove ROCKS
-  remove moveDodger
-  alert ("YOU LOSE!")
+  //clear gameInterval
+  delete ROCKS [];
+  //document.getElementById("myDIV").removeEventListener(moveDodger, );
+  //alert ("YOU LOSE!")
 }
 
 function moveDodger(e) {
