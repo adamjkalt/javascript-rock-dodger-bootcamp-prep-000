@@ -123,7 +123,7 @@ function createRock(x) {
  */
 function endGame() {
   //clear gameInterval
-  delete ROCKS [];
+  //delete ROCKS [];
   //document.getElementById("myDIV").removeEventListener(moveDodger, );
   //alert ("YOU LOSE!")
 }
