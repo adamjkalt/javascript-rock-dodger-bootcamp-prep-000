@@ -76,13 +76,13 @@ GAME.appendChild(rock);
     rock.style.top = `${top += 2}px`
 
     if (top < GAME_HEIGHT) {
-    window.requestAnimationFrame(moveRock)
-  } 
-  else (top > GAME_HEIGHT) {
-    rock.remove();
-  }
-    window.requestAnimationFrame(moveRock)
+      window.requestAnimationFrame(moveRock)
     }
+    else {
+      rock.remove();
+    }
+    window.requestAnimationFrame(moveRock)
+  }
     // implement me!
     // (use the comments below to guide you!)
     /**
