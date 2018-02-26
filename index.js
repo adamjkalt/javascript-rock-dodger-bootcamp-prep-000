@@ -87,7 +87,7 @@ GAME.appendChild(rock);
     window.requestAnimationFrame(moveRock)
   }
 
-  moveRock
+  moveRock()
     // implement me!
     // (use the comments below to guide you!)
     /**
