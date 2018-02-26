@@ -123,7 +123,7 @@ function createRock(x) {
  */
 function endGame() {
   clearInterval(gameInterval)
-  clearInterval(ROCKS)
+  clearInterval(rocks)
 
   //for (i = 0; i < 4; i++) {
     //ROCKS.remove;
